@@ -40,7 +40,7 @@ function creativeIdea() {
 }
 
 const navLinks = document.querySelector('.navlinks')
-const menuBtn = document.querySelector('.fa-bars')
+const menuBtn = document.querySelector('i.fa-bars')
 
 menuBtn.addEventListener ('click', function() {
     navLinks.classList.toggle("active")
